@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳嘉翰(userphone)</title>
+</head>
+<body>
+    <div>
+        <h1>行動電話使勇意見調查表</h1>
+        <form action="/test.aspx" method="post">
+            <label for="username">姓名:</label>
+            <input type="test" id="user name"><br>
+            <label for="e-mail">E-mail:</label>
+            <input type="email" id="e-mail"><br><br>
+            <a>您使用手機時最常碰到那些問題?</a><br>
+            <textarea name="message" rows="8" cols="32" placeholder="在此輸入您的訊息..."></textarea><br><br>
+            <label for="phonetype">您使用過那些業者的門號?(可複選)</label>
+            <select id="phonetype" name="phonetype" multiple>
+                <option value="cht">中華電信</option>
+                <option value="taiwanmoblie">台灣大哥大</option>
+                <option value="fetnet">遠傳電信</option>
+                <option value="t-star">台灣之星</option>
+            </select><br><br>
+            <input type="submit" value="提交">
+            <input type="reset" value="重設">
+        </form>
+    </div>
+</body>
+</html>
